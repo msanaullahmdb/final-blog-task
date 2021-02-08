@@ -1,0 +1,20 @@
+#head {
+    height: 60px;
+    background-color:blue;
+    border-radius: 10px;
+    text-align: right;
+    
+}
+
+#login {
+    margin-right: 50px;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+#logout {
+    margin-right: 50px;
+    margin-top: 20px;
+    color: white;
+}

@@ -1,0 +1,22 @@
+<div class="container">
+    <h1>
+      New Blog
+    </h1>
+  
+    <form [formGroup]="blogForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="title">Blog Title</label>
+        <input type="text" class="form-control" id="title" 
+          placeholder="Enter Blog Title" formControlName="title" />
+      </div>
+  
+      <div class="form-group">
+        <label for="content">Blog Content</label>
+        <input type="text" class="form-control" id="content" 
+          placeholder="Enter Blog Content" formControlName="content"/>
+      </div>
+  
+      <button class="btn btn-primary" type="submit">Add Blog</button>
+      <p style="color: red;">{{err}}</p>
+    </form>
+  </div>
